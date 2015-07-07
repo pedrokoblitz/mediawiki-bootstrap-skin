@@ -1,0 +1,23 @@
+Wikistrap - MediaWiki + Twitter Bootstrap 3
+
+About
+
+Originally developed as an intranet solution for ~400 users
+
+Modules
+
+->
+
+Permissions
+
+->
+
+Installation
+
+-> copy the basefile and folder to the skins/ dir of your mediaWiki install
+-> change name of default theme in ./LocalSettings.php
+-> reload mediaWiki
+
+Top navigation menu
+
+-> changes to the top menu must be made manually in the file at ./wikistrap/menu.php

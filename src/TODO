@@ -1,0 +1,9 @@
+
+-> so funciona em portugues:
+
+<!--Page Name-->
+<?php  if ($titulo->mTextform != "Página principal") : ?>
+	<h1 id="firstHeading"><?php $this->html('title'); ?></h1>
+<?php endif; ?>
+
+

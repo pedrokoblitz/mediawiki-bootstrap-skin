@@ -1,0 +1,447 @@
+body {
+	background-image:url(bg.jpg);
+	background-position:top center;
+    background-repeat:no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size:28px;
+	color:#0086CC;
+	margin-bottom:3px;
+	}
+
+h2 {
+	font-size:23px;
+	color:#0086CC;
+	}
+
+h3 {
+	font-size:21px;
+	color:#0086CC;
+	}
+
+h4 {
+	font-size:15px;
+	color:#444;
+	}
+
+hr {
+	margin:6px 0 21px 0;
+}
+
+.mais {
+	margin-top:23px;
+	margin-right:3px;
+	}
+
+.destaque h2 { 
+    line-height:26px;
+    margin-top:0.05em;
+    margin-bottom:0.1em;
+}
+
+.destaque h3 { 
+    line-height:26px;
+    margin-top:0.05em;
+    margin-bottom:0.5em;
+}
+
+.destaque h4 { 
+    line-height:16px;
+    margin-bottom:0.01em;
+}
+
+.artigos h4 { 
+    line-height:20px;
+    margin-bottom:0.01em;
+    display:inline;
+}
+
+.intra_data {
+	font-size:11px;
+	color:#999;
+	margin-bottom:8px;
+	}
+
+.intra_texto {
+	margin:5px 0 5px 0;
+	font-size:12px;
+	color:#444;
+	text-align:justify;
+	line-height:18px;
+	}
+
+.intra_texto_link {
+	color:#444;
+	}
+
+.intra_link {
+	font-size:11px;
+	text-align:right;
+	line-height:18px;
+	}
+	
+
+
+/* =Global
+----------------------------------------------- */
+
+body {margin:0;}
+
+
+
+/* fim menu */
+
+/* */
+.rodapeEntorno {
+	width:100%;
+	background:#21272d;
+	color:#8c8c8c;
+}
+
+.rodapeEntorno img {
+	float:left;
+	display:inline;
+	margin:10px 10px 0 0;
+}
+
+.rodapeEntorno p {
+	font-size:11px;
+	color:#8C8C8C;
+	margin:10px 0 0 0;
+	line-height: 13px;
+}
+.rodapeCaixa {
+	float:left;
+	display:inline;
+	width:330px;
+}
+.rodapeCaixa1 {
+	float:left;
+	display:inline;
+	width:220px;
+}
+.rodapeCaixa2 {
+	float:left;
+	display:inline;
+	width:190px;
+}
+.rodapeCaixa3 {
+	float:left;
+	display:inline;
+	width:198px;
+}
+.rodapefix {
+	margin: 10px 0 20px 0;
+}
+.clearfix { height:0;
+}
+.linha {
+	margin:0;
+	padding:0;
+	height:1px;
+	border:0;
+}
+.linha1 {
+	background-color:#16181A;
+}
+.linha2 {
+	background-color:#404D56;
+}
+.linha3 {
+	margin:0;
+	padding:10px 0 10px 0;
+	height:1px;
+	border:0;
+}
+
+#footer ul {
+	list-style:none;
+}
+
+#footer p {
+	text-align:right;
+}
+
+#wpTextbox1 {width:100%}
+
+.portlet ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+h2.mw-specialpagesgroup {
+	font-size:18px;
+}
+
+.mw-specialpages-table ul {
+	list-style:none;
+}
+
+
+.well h5 {
+	margin-top:0;
+}
+
+table#toc {
+  min-height: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#toctitle {
+  margin:6px 0;
+}
+
+#toctitle h2, .toctoggle {
+  margin:0 8px !important;
+}
+
+.toc ul {
+  padding: 8px;
+  margin-bottom: 4px;
+}
+
+span.editsection {font-size:14px;}
+
+#mw-content-text input {
+	margin:8px 0;
+}
+
+#mw-content-text label {
+	margin:5px 0;
+}
+
+.editCheckboxes label, input[type="checkbox"], input[type="radio"], .editCheckboxes input[type="checkbox"], #mw-content-text input[type="checkbox"] {
+	float:left;
+	margin:5px;
+}
+
+#editpage-copywarn, .editHelp, .cancelLink {display:none;}
+
+.editButtons {clear:both;}
+
+input#wikieditor-toolbar-link-int-text, 
+input#wikieditor-toolbar-link-int-target,
+input#wikieditor-toolbar-reference-text,
+input#wikieditor-toolbar-file-target, 
+input#wikieditor-toolbar-file-caption, 
+input#wikieditor-toolbar-file-size {height:40px; !important;}
+
+
+input[type='submit'] {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+#mw-content-text input[type="submit"]:hover,
+#mw-content-text input[type="submit"]:active,
+#mw-content-text input[type="submit"].active,
+#mw-content-text input[type="submit"].disabled,
+#mw-content-text input[type="submit"][disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+#mw-content-text input[type="submit"]:active,
+#mw-content-text input[type="submit"].active {
+  background-color: #cccccc \9;
+}
+#mw-content-text input[type="submit"]:first-child {
+  *margin-left: 0;
+}
+#mw-content-text input[type="submit"]:hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+#mw-content-text input[type="submit"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#mw-content-text input[type="submit"].active,
+#mw-content-text input[type="submit"]:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+#mw-content-text input[type="submit"].disabled,
+#mw-content-text input[type="submit"][disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#mw-content-text input[type="submit"]-large {
+  padding: 11px 19px;
+  font-size: 17.5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.thumb {margin-right:10px;}
+
+.fullMedia .internal {font-size:16px; text-align:center; padding:10px 12px 10px 10px; background:#eee; border:1px solid #ccc; display:block; margin:20px auto;}
+
+.fullMedia .fileInfo {width:200px; font-size:14px; display:block; margin:0 auto 20px auto;}
+
+.fullImageLink img {margin:0 auto; display:block;}
+
+#mw-content-text ul li, #mw-content-text ol li{margin:10px 0;}
+
+/*.toc .tocnumber {display:none;}*/
+
+.toc ul {list-style:none;}
+
+div.toctext h2 {margin-left:20px;}
+
+ul.nav-tabs li a {background-color: #ededed;}
+
+ul.nav-tabs li a:hover {background-color: #ddd;}
+
+ul.nav-pills > li > a {
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right: 8px;
+  line-height: 8px;
+  border:1px solid #ddd;
+}
+
+.mediaWarning {display:none;}
+
+
+
+/* Interwiki Styling */
+.mw-body a.extiw,
+.mw-body a.extiw:active {
+	color: #36b;
+}
+.mw-body a.extiw:visited {
+	color: #636;
+}
+.mw-body a.extiw:active {
+	color: #b63;
+}
+
+/* External links */
+.mw-body a.external {
+	color: #36b;
+}
+.mw-body a.external:visited {
+	color: #636; /* bug 3112 */
+}
+.mw-body a.external:active {
+	color: #b63;
+}
+
+/* Inline Elements */
+img {
+	border: none;
+	vertical-align: middle;
+}
+hr {
+	height: 1px;
+	color: #aaa;
+	background-color: #aaa;
+	border: 0;
+	margin: .2em 0;
+}
+
+q {
+	font-family: Times, "Times New Roman", serif;
+	font-style: italic;
+}
+/* Disabled for now
+blockquote {
+	font-family: Times, "Times New Roman", serif;
+	font-style: italic;
+}*/
+pre, code, tt, kbd, samp, .mw-code {
+	/*
+	 * Some browsers will render the monospace text too small, namely Firefox, Chrome and Safari.
+	 * Specifying any valid, second value will trigger correct behaviour without forcing a different font.
+	 */
+	font-family: monospace, Courier;
+}
+code {
+	background-color: #f9f9f9;
+}
+pre, .mw-code {
+	padding: 1em;
+	border: 1px dashed #2f6fab;
+	color: black;
+	background-color: #f9f9f9;
+}
+
+
+/* Emulate Center */
+.center {
+	width: 100%;
+	text-align: center;
+}
+*.center * {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Small for tables and similar */
+.small {
+	font-size: 94%;
+}
+table.small {
+	font-size: 100%;
+}
+
+
